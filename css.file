@@ -1,0 +1,268 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    float: left;
+    height: 120px;
+    width: auto;
+}
+nav{
+    top: 0;
+    z-index: 100;
+    background: none;
+    padding: 2px;
+    position: fixed;
+    width: 90%;
+    margin-left: 30px;
+}
+nav ul {
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    display: flex;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: large;   
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: darkblue;
+    border-radius: 5px;
+}
+.now{
+    margin-top: -10px;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: darkblue;
+    color: white;
+    border-width: 5px;
+}      
+.im{
+    text-align: center;
+    background-image: url('images/library.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.open {
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+.open h1{
+    margin-top: -100px;
+    margin-bottom: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    font-weight: 900;
+}
+.open h2{
+    margin-top: -15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-bottom: none;
+    font-weight: 400;
+}
+.open h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: large;
+    margin-top: -10px;
+    margin-bottom: none;
+    font-weight: 100;
+}
+.open ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+.open ul li a {
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: navy;
+    color: #FFF
+}  
+.do h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+.do h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+.who{
+    background-image: url('images/pin-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.do{
+    padding-top: auto;
+    padding-bottom: 150px;
+    position: relative;
+    text-align: center;
+    margin: 100px;
+
+}
+.who img{
+    width:  auto;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.line img{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 20px;
+    justify-content: center;
+    border-radius: 25px;
+    text-align: center;
+}
+.line ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 350px;
+    margin-left: -100px;
+}  
+.line ul li a {
+    border-style: solid;
+    border-color: black;
+    border-radius: 80px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: none;
+    color: blue;
+}
+
+.first-box{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-top-width: 5px;
+    padding: 10px;
+} 
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    text-align: left;
+    margin-top: -200px;
+}
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 10px;
+    text-align: left;
+
+}
+.container ul li{
+    list-style-type:circle;
+    display: list-item;
+    margin: 2px;
+    color: darkolivegreen;
+    font-size: 17px;
+}
+.contain ul li{
+    list-style-type:circle;
+    display: list-item;
+    margin: 2px;
+    color: darkolivegreen;
+    font-size: 17px;
+}    
+
+.container h3{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkred;
+}
+.contain h3 {
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: darkred;
+}
+.do {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.do img {
+    border-radius: 20px;
+    object-fit: fill;
+    float: left;
+    height: 230px;
+    width: auto;
+}
+.left img {
+    float: right;
+    height: 280px;
+    width: 180;
+}
+.do ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 330px;
+    float: right;
+
+}  
+.do ul li a {
+    border-style: solid;
+    border-color: black;
+    border-radius: 80px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: none;
+    color: blue;
+}
+.do h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;    
+}
+.new {
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: none;    
+}
+.latest {
+    margin-top: 250px;
+}
+.down-con{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.foot {
+    background-color: grey;
+}
+.foot h3 {
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+@media only screen and (min-width: 375px)
+and (orientation: portrait) 
+and (max-width: 1800px){z
+    }
+}
